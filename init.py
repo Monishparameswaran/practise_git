@@ -1,3 +1,3 @@
 
-print(hello monish)
-a=10
+b=34
+print("hello world")
