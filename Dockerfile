@@ -1,7 +1,7 @@
 ARG TAG=latest
 FROM nginx:$TAG
 RUN "apt-get update" && \
-    "apt-get install figlet"
+    "apt-get install figlet" &&\
     "apt-get install iputils-ping"
 WORKDIR /reverse
 WORKDIR app
