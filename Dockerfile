@@ -9,4 +9,4 @@ EXPOSE 8080
 COPY . /usr/share/nginx/html/index.html
 LABEL OWNER=MONISH
 CMD ["localhost"]
-ENTRYPOINT ["ping","-c4"]
+ENTRYPOINT ["ping","-c4"]                               
